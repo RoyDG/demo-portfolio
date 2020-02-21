@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Playfair Display', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+/*h1, h2, p style */
+h1 {
+    font-family: initial;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+}
+h2 {
+    color: rgb(221, 12, 116);
+    padding-top: 5%;
+    text-align: center;
+    font-size: 45px;
+}
+p {
+    font-family: monospace;
+    color: rgb(58, 45, 41);
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+/*text color highlight */ 
+.text-highlight {
+    color: rgb(221, 12, 116);
+}
+.text-highlight2 {
+    color: orangered;
+}
+/*working with image */
+img {
+    width: 100%;
+}
+.work-image {
+    box-shadow: 10px 10px 40px rgb(95, 55, 40);;
+    width: 30%;
+    float: left;
+    padding: 5px;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+/* working with section, div, content */
+.note {
+    margin-left: 2%;
+    padding-top: 30%;
+}
+.closer {
+    padding-left: 8%;
+    padding-top: 10%;
+}
+.closer2 {
+    margin-right:5%;
+    padding-top: 5%;
+}
+section {
+    height: 500px;
+    padding-bottom: 20px;    
+}
+.half-width {
+    margin-top: 100px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+/*background image style*/
+.top-banner {
+    background-image: url(images/header-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.bottom-banner {
+    background-image: url(images/biography-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.work-banner {
+    background-image: url(images/latest-work-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+/*Contact section*/
+.client {
+    text-align: center;
+}
+.contact {
+    background-image: url(images/contact-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#email {
+    background-color: rgba(214, 21, 140, 0.897);
+    height: 25%;
+    margin: 0 25%;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+input {
+    width: 60%;
+    height: 20%;
+    border-radius: 5px;
+}
+button{
+    padding: 6px 20px;
+    border-radius: 5px;
+    color: rgb(243, 222, 195);
+    background-color: rgb(223, 6, 78);
+}
+#icon {
+    width: 2%;
+    height: 2%;
+    float: right;
+    margin-right: 10px
+}
+
+/*button style starts*/
+.link-button {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221, 12, 116) ;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.link-button:link,
+.link-button:visited {
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.link-button:hover,
+.link-button:active {
+     border: 1px solid rgb(148, 64, 67);  
+}
+/*Footer*/
+footer {
+    text-align: center;
+    border: 0.5px solid gray;
+    background-color: rgba(20, 82, 87, 0.582);
+}
